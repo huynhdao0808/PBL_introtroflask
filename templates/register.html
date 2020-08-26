@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+
+{%block content%}
+<div class='container' style="display:flex;flex-direction:column;align-items: center;background-color: antiquewhite;padding:2rem">
+<form action="/register" method='POST'>
+    <input type="text" name='name'>
+    <button type='Sumbit' class='btn btn-outline-primary'>Submit</button>
+</form>
+</div>
+{%endblock%}
